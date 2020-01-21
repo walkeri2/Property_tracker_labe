@@ -29,9 +29,9 @@ property1 = PropertyTracker.new(
 
     property1.update()
 
-    PropertyTracker.find_property_by_id(property1.id)
+    found_by_id = PropertyTracker.find_property_by_id(property1.id)
 
-    PropertyTracker.find_property_by_address(property1.address)
+    found_by_address = PropertyTracker.find_property_by_address(property1.address)
 
 binding.pry
 nil
